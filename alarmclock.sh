@@ -20,6 +20,7 @@
 set -o nounset                              # Treat unset variables as an error
 
 FILE=/home/robin/alarm_sound2.mp3
+ALARMTIME="06:55"
 #FILE=/home/robin/jdownloader/downloads/alarm_sound.mp3
 
 lockcmd(){
@@ -63,6 +64,21 @@ alarm(){
 }
 
 #============================================================================
+
+while true ; do
+	TIME=$(date '+%H:%M')
+	if [ "$TIME" = "$ALARMTIME" ]
+	then
+		clear
+		echo "Current time is:			$TIME"
+		break
+	else
+		clear
+		echo -e "Current time is:\t$TIME"
+		echo -e "Current alarm time is:\t$ALARMTIME"
+		sleep 1m
+	fi
+done
 
 alarm
 
