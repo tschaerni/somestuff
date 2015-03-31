@@ -4,7 +4,7 @@
 # version: 1.0.0
 #
 # Imporant note:
-#	this script works the current version
+#	this script works in the current version
 #	only with one filesystem with userquota.
 
 GETQUOTA="$(quota -lw --hide-device | tail -1)"
