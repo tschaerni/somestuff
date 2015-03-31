@@ -1,11 +1,12 @@
 #!/bin/bash
 # userquota parsescript by tschaerni <robin@cerny.li>
-# release date: 31.03.2015
+# release date: 31.03.2015 or for the illiberal users: 2015-03-31
 # version: 1.0.0
 #
-# Imporant note:
-#	this script works in the current version
-#	only with one filesystem with userquota.
+# Important note:
+#	The current version of this script works
+#	only with a userquota on one filesystem.
+
 
 GETQUOTA="$(quota -lw --hide-device | tail -1)"
 USERQUOTA="$(echo "$GETQUOTA" | awk {'print $2'})"
