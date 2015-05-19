@@ -1,0 +1,1 @@
+/home/rcerny/.n.sh

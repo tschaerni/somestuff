@@ -11,3 +11,4 @@ Some bash stuff
 | ./mcstart.sh		|  Minecraft Start script for the MC Control Panel			|
 | ./raidcalc.sh		|  a bash Raidcalculator (unfinished)						|
 | ./quota.sh		|  a userquota parsescript									|
+| ./n.sh			|  a simple CLI notebook (only z-shell compatible)			|
