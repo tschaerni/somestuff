@@ -12,3 +12,5 @@ Some bash stuff
 | ./raidcalc.sh		|  a bash Raidcalculator (unfinished)						|
 | ./quota.sh		|  a userquota parsescript									|
 | ./n.sh			|  a simple CLI notebook (only z-shell compatible)			|
+| .gasmask.sh		|  adblock through manipulating the hosts file (unfinished)	|
+| ./pjotr			|  a video download and merge script						|
